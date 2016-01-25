@@ -1,2 +1,3 @@
-# cinch-yask
-Yet Another Shop Keeper for CinchRB
+**Y**et **A**nother **S**hop **K**Keeper for [Cinch][cinchrb]
+
+# COMMING SOON!

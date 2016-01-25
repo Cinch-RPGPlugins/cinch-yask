@@ -1,4 +1,4 @@
-**Y**et **A**nother **S**hop **K**Keeper for [Cinch][cinchrb]  
+**Y**et **A**nother **S**hop **K**eeper for [Cinch][cinchrb]  
 
 [![Build Status](https://travis-ci.org/Cinch-RPGPlugins/cinch-yask.svg?branch=master)](https://travis-ci.org/Cinch-RPGPlugins/cinch-yask) (Master Branch)  
 [![Build Status](https://travis-ci.org/Cinch-RPGPlugins/cinch-yask.svg?branch=testing)](https://travis-ci.org/Cinch-RPGPlugins/cinch-yask) (Testing Branch)  

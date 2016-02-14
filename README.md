@@ -6,4 +6,6 @@
 
 # COMMING SOON!
 
+[![Join the chat at https://gitter.im/Cinch-RPGPlugins/cinch-yask](https://badges.gitter.im/Cinch-RPGPlugins/cinch-yask.svg)](https://gitter.im/Cinch-RPGPlugins/cinch-yask?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [cinchrb]: https://github.com/cinchrb/cinch

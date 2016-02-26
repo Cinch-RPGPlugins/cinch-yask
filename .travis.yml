@@ -1,8 +1,11 @@
 language: ruby
 rvm:
- - "2.2.4"
- - "2.1.5"
- - "1.9.3"
+- 2.2.4
+- 2.1.5
+- 1.9.3
 env:
-  - "CHECK='rubocop -D *.rb'"
-  - "CHECK='rspec spec --color --format documentation --order random'"
+- CHECK='rubocop -D *.rb'
+- CHECK='rspec spec --color --format documentation --order random'
+notifications:
+  slack:
+    secure: jiWJXXdwUyaXJMm2SyE7MfCgz+27R5aiZjCKkFDKEhI/+qRo/Vwco78f2uiFThtnE7GyTH/tYYCcYvtQkVfGtqfEZDTwpoginaipqi9/joizS67XPDOd/GF9xaf/PSk1ZBMXeLRYr6I+Dd8bKJAF6P9+362zFmnSWDc5fmbPLW61PIqyuRGtFfD92OP7TY3PbGRs70eGhbCfoLQXZi/sEzfj+JTqbFf8Nss0Oz4KmJgyxyGRHR2ek1MWrIAUiIu/Ywj3/J6M0+nFge/aLMZJ774lI0dRpUCLwiFbd54sP+QmR58ERUtQrsrezhOUarWMmH75FONAoF6jG+L0AkVNqLCJ/jXW/ARdah2n1O2W2mxe03ULWhw1dy+b+YZqfPiIewHpXNkcFbyOcht31eWdxsDpJf1+reho25EBbsi+Yn0Os05JLiLp5TxjUTpVg49QP1wkhi6CnyyXxKDmt5/G4JpHlGaww3/bDR13gCvKqqky9UmiVkwMlAxuVYpwkZzRqFbAoUEd73czc3H3nhmhAvsx7Cw4hYd/pJeSnwyrg11CHf9qnbRVZrZ2ByV56jSqw0+EN5lfvsl4FHGqNm4KuFWZYCSOke0WAEpT+tYd6t1Edb47MWHe4QbGph/BWY//Opg9JOAW3eU9Cttd4NjOS59PJfcRuQwkPauN4iswoS8=

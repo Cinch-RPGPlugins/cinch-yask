@@ -1,12 +1,15 @@
 #!/usr/bin/env ruby
 require 'cinch'
-
+require 'shopkeeper'
 # Class:    YASK
 # Purpose:  Yet Another Shop Keeper
 # Location: https://github.com/Cinch-RPGPlugins/cinch-yask
 #:nodoc:
 class YASK
   include Cinch::Plugin
+
+  @shopkeeper=Shopkeeper.new
+  
 
   # Prob wont work due to its not looking for an item
   on :message, /buy (^[1-9][0-9]?$)/ do
@@ -33,6 +36,7 @@ class YASK
 
   def list
     puts "This will be a list of junk that im passed!"
+    puts @shopkeeper.list_inventory
   end
 
   def execute(m)
